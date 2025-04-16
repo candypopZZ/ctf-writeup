@@ -6,6 +6,7 @@
 Here’s a screenshot of a Genshin Impact redemption code . The catch? The code is there, but it appears "cropped" or incomplete. If only you could enlarge the image to reveal the rest of it.
 
 **Hint:** *Maybe try reading up on the PNG file format.*
+
 ![codeeeee](https://github.com/candypopZZ/ctf-writeup/blob/forensics/codeeeee.JPG?raw=true)
 
 ## Solution
@@ -40,5 +41,8 @@ Since the flag was cropped horizontally, I decided to increase the height value.
 
 After saving the modified file, I reopened the image, and boom — the full flag was revealed!
 
+![image](https://github.com/candypopZZ/ctf-writeup/blob/forensics/flag.JPG?raw=true)
 
 ## Flag
+
+<pre>ICECTF{d0nt_red33m_th3_c0d3!!}</pre>
