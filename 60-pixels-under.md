@@ -30,12 +30,15 @@ Curious about its meaning, I Googled it and found that the IHDR chunk contains c
 
 This metadata is located in the chunk’s data section. In this case, the data part shows `0000 0335 0000 0205`, which in hexadecimal translates to 821 (width) and 517 (height) in decimal.
 
-### 4. Modify the Height
-Since the flag was cropped horizontally, I decided to increase the height value. I opened the file using a `hexeditor` and changed the height from 0205 (517) to 01C2 (450) which is higher value in hex.
+### 3. Modify the height
 
+Since the flag was cropped horizontally, I decided to increase the height value. I opened the file using a `hexeditor` and changed the height to a higher value from 0205 to 0450.
 
+![image](https://github.com/user-attachments/assets/2a5fdda3-7bbc-4a0c-9ac4-796bee370fb6)
 
-### 5. Save and View the Image
-After making the change, I saved the file. The previously hidden flag was now visible in the extended image.
+### 4. Save and view the Image
+
+After saving the modified file, I reopened the image, and boom — the full flag was revealed!
+
 
 ## Flag
