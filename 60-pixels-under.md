@@ -8,13 +8,14 @@ Here’s a screenshot of a Genshin Impact redemption code . The catch? The code 
 **Hint:** *Maybe try reading up on the PNG file format.*
 
 ## Solution
-
+![codeeeee](https://github.com/candypopZZ/ctf-writeup/blob/forensics/codeeeee.JPG?raw=true)
 
 ### 1. Analyze the File Format
-I used **Exiftool** to confirm the file was a PNG image.
+I used **exiftool** to confirm the file was a PNG image.
 <pre>exiftool code.PNG</pre>
 
-![Cropped Image](https://github.com/your-username/your-repo-name/raw/forensics/images/cropped_image.png)
+
+
 The properties showed the image size as **821x517 pixels**.
 
 ### 3. Use `xxd` to View the File Header
