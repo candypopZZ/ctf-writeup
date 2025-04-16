@@ -26,12 +26,14 @@ I used the `xxd` command to examine the file header. The first four bytes matche
 
 Curious about its meaning, I Googled it and found that the IHDR chunk contains crucial **image metadata** — such as width, height, bit depth, color type, compression method, filter method, and interlace method.
 
+![forensicchunk](https://github.com/candypopZZ/ctf-writeup/blob/forensics/forensicchunk.JPG?raw=true)
 
-
-This metadata is located in the chunk’s data section. In my case, the data part read 0000 0335 0000 0205, which in hexadecimal translates to 821 (width) and 517 (height) in decimal
+This metadata is located in the chunk’s data section. In this case, the data part shows `0000 0335 0000 0205`, which in hexadecimal translates to 821 (width) and 517 (height) in decimal.
 
 ### 4. Modify the Height
-The IHDR chunk contains information about the image, including the width and height. I decoded the hex value to get the width and height, which were **821x517 pixels**. To view the cropped part of the image, I modified the height value from `517` to `450` using a hex editor.
+Since the flag was cropped horizontally, I decided to increase the height value. I opened the file using a `hexeditor` and changed the height from 0205 (517) to 01C2 (450) which is higher value in hex.
+
+
 
 ### 5. Save and View the Image
 After making the change, I saved the file. The previously hidden flag was now visible in the extended image.
