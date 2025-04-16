@@ -4,10 +4,7 @@ hello! this is my collection of ctf writeups. i'm still learning and growing in 
 
 ## 📁 categories
 
-- 🕸️ [web](web/)
-- 🔍 [forensics](forensics/)
-- 🔐 [crypto](crypto/)
-- 📝 [notes](notes/)
+- 🔍 [forensics](https://github.com/candypopZZ/ctf-writeup/tree/forensics/)
 
 > 🚧 always a work in progress. feel free to explore or fork!
 
