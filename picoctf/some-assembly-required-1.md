@@ -6,6 +6,7 @@
 - **Tags:** `picoctf 2021`, `web`, `wasm`, `javascript`, `reversing`  
 - **Challenge URL:** [http://mercury.picoctf.net:40226/index.html](http://mercury.picoctf.net:40226/index.html)
 
+![img1](https://github.com/candypopZZ/ctf-writeup/blob/main/images/img1.JPG?raw=true)
 ---
 
 ## 🔍 Summary
@@ -42,6 +43,7 @@ This implies the flag verification logic is inside the `.wasm` file.
 4. **Found the flag** near the end of the binary content:
    ```picoCTF{cb688c00b5a2ede7eaedcae883735759}```
 
+![img2](https://github.com/candypopZZ/ctf-writeup/blob/main/images/img2.JPG?raw=true)
 ---
 
 ## ✅ Lessons Learned
