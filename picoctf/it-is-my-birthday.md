@@ -1,4 +1,4 @@
-# 📌 It is my Birthday
+# It is my Birthday
 
 ## 📌 Challenge Info
 - **Author**: madStacks  
@@ -38,4 +38,4 @@ Instead of generating from scratch, we used pre-made PDF collision examples from
 
 Submit both files and just like that, you got the flag!
 
-![flag]()
+![flag](https://github.com/candypopZZ/ctf-writeup/blob/main/images/flag.JPG?raw=true)
