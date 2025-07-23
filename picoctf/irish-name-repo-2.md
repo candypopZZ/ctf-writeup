@@ -32,3 +32,5 @@ SELECT * FROM users WHERE username = 'admin' -- ' AND password = '...';
 This bypasses the password check entirely.
 
 🎯 **We logged in as the admin and retrieved the flag. 🏁**
+
+![irish2](https://github.com/candypopZZ/ctf-writeup/blob/main/images/irish2.JPG?raw=true)
