@@ -23,5 +23,9 @@ The backend SQL becomes:
 ```sql
 SELECT * FROM users WHERE username = 'admin' AND password = '' OR '1'='1';
 ```
-
 This bypasses authentication and logs us in as admin.
+
+🎯 **Login successful → Flag obtained.**
+
+![irish1](https://github.com/candypopZZ/ctf-writeup/blob/main/images/irish1.JPG?raw=true)
+
